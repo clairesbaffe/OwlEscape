@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gérer ma réservation</title>
+    <link href="../style/reservations.css" rel="stylesheet">
+    <link rel="website icon" type="png" href="../images/chouette.png">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div id="tete">
+                <a id="menu" href="#">
+                    <img id="icon-menu" src="../icons/menu-icon.png">
+                </a>
+                <a href="../home.html">
+                    <img class="owlescape-brand" src="../images/owlescape-brand.png">
+                </a>
+            </div>
+
+            <ul id="tete2">
+                <li id="search">
+                    <a id="text-search" href="./search.html">
+                        <img class="icon-header" src="../icons/search-icon.png">Réserver un vol
+                    </a>
+                </li>
+                <li id="reservations">
+                    <a id="text-reservations" href="./reservations.html">
+                        Mes réservations
+                    </a>
+                </li>
+                <li id="contact">
+                    <a id="text-contact" href="./contact.html">
+                        Contact
+                    </a>
+                </li>
+                <li>
+                    <div id="identification">
+                        <a id="connexion" href="./connexion.html">
+                            <img class="icon-header" src="../icons/person.png">
+                            <p>Connexion</p>
+                        </a>
+                        <a id="inscription" href="./inscription.html">
+                            <p>S'inscrire</p>
+                            <img class="icon-header" src="../icons/add.png">
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <section>
+        <div id="main-box">
+            <h2>Pour accéder à vos réservations</h2>
+
+            <a id="to-connexion" href="./connexion.html">
+                <h3>Connectez-vous à votre compte</h3>
+                <img id="icon-to-connexion" src="../icons/right-arrow.png">
+            </a>
+            <p id="text-or">ou</p>
+            <form>
+                <div class="item-formulaire">
+                    <label for="ref">Référence de réservation</label>
+                    <input type="text" placeholder="ACQ167"  name="ref" required>
+                </div>
+                <div class="item-formulaire">
+                    <label for="nom">Nom</label>
+                    <input type="text" placeholder="Durand" name="nom" required>
+                </div>
+                <input id="btn_submit" type="submit" value="Accéder à ma réservation">
+            </form>
+        </div>
+        
+
+
+
+
+    </section>
+    
+</body>
+</html>

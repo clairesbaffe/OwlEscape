@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="../style/contact.css" rel="stylesheet">
+    <link rel="website icon" type="png" href="../images/chouette.png">
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="tete">
+                <a id="menu" href="#">
+                    <img id="icon-menu" src="../icons/menu-icon.png">
+                </a>
+                <a href="../home.html">
+                    <img class="owlescape-brand" src="../images/owlescape-brand.png">
+                </a>
+            </div>
+
+            <ul id="tete2">
+                <li id="search">
+                    <a id="text-search" href="./search.html">
+                        <img class="icon-header" src="../icons/search-icon.png">Réserver un vol
+                    </a>
+                </li>
+                <li id="reservations">
+                    <a id="text-reservations" href="./reservations.html">
+                        Mes réservations
+                    </a>
+                </li>
+                <li id="contact">
+                    <a id="text-contact" href="./contact.html">
+                        Contact
+                    </a>
+                </li>
+                <li>
+                    <div id="identification">
+                        <a id="connexion" href="./connexion.html">
+                            <img class="icon-header" src="../icons/person.png">
+                            <p>Connexion</p>
+                        </a>
+                        <a id="inscription" href="./inscription.html">
+                            <p>S'inscrire</p>
+                            <img class="icon-header" src="../icons/add.png">
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section>
+        <form id="box-icons">
+            
+            <!--
+            <input class="icon" id="contact2" type="image" src="../icons/email.png">
+            <input class="icon" id="contact3" type="image" src="../icons/tel.png">
+            <input class="icon" id="contact4" type="image" src="../icons/facebook.png">
+            <input class="icon" id="contact5" type="image" src="../icons/instagram.png"> 
+            -->
+            
+
+
+            <!--
+                <input class="icon" id="contact1" type="image" src="../icons/envelope.png">
+            <input class="icon" id="contact2" type="image" src="../icons/email.png">
+            <input class="icon" id="contact3" type="image" src="../icons/tel.png">
+            <input class="icon" id="contact4" type="image" src="../icons/facebook.png">
+            <input class="icon" id="contact5" type="image" src="../icons/instagram.png">
+            -->
+            
+            
+    
+            <input class="icon" type="image" src="../icons/envelope.png" onclick="openContact(0)">
+            <input class="icon" type="image" src="../icons/email.png" onclick="openContact(1)">
+            <input class="icon" type="image" src="../icons/tel.png" onclick="openContact(2)">
+            <input class="icon" type="image" src="../icons/facebook.png" onclick="openContact(3)">
+            <input class="icon" type="image" src="../icons/instagram.png" onclick="openContact(4)">
+            
+            
+        </form>
+    </section>
+    
+
+<!------------------------------------------------------------------------------------------------------>
+    
+
+
+    <!--adresse-->
+    <div class="affichage-box" id="box-contact1">
+        <div class="background-contact">
+            <div class="box-contact">
+                <input class="close-box-contact" onclick="closeContact(0)" type="image" src="../icons/cross.png">
+                <div class="infos-box-contact">
+                    <img src="../icons/envelope.png">
+                    <p>7 rue Cabirol</p>
+                    <p>33000 Bordeaux</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!--email-->
+    <div class="affichage-box" id="box-contact2">
+        <div class="background-contact">
+            <div class="box-contact">
+                <input class="close-box-contact" onclick="closeContact(1)" type="image" src="../icons/cross.png">
+                <div class="infos-box-contact">
+                    <img src="../icons/email.png">
+                    <p>owlescape@info.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--tel-->
+    <div class="affichage-box" id="box-contact3">
+        <div class="background-contact">
+            <div class="box-contact">
+                <input class="close-box-contact" onclick="closeContact(2)" type="image" src="../icons/cross.png">
+                <div class="infos-box-contact">
+                    <img src="../icons/tel.png">
+                    <p>09 69 39 36 54</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!--facebook-->
+    <div class="affichage-box" id="box-contact4">
+        <div class="background-contact">
+            <div class="box-contact">
+                <input class="close-box-contact" onclick="closeContact(3)" type="image" src="../icons/cross.png">
+                <div class="infos-box-contact">
+                    <img src="../icons/facebook.png">
+                    <p>https://www.facebook.com/owlescape_airline/</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!--instagram-->
+    <div class="affichage-box" id="box-contact5">
+        <div class="background-contact">
+            <div class="box-contact">
+                <input class="close-box-contact" onclick="closeContact(4)" type="image" src="../icons/cross.png">
+                <div class="infos-box-contact">
+                    <img src="../icons/instagram.png">
+                    <p>@owlescape_airline</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    
+
+
+<!------------------------------------------------------------------------------------------------------>
+
+
+
+
+    <footer>
+
+        <img class="owlescape-brand" src="../images/owlescape-brand-white.png">
+
+    </footer>
+
+
+    
+    <script src="../script/contact.js"></script>
+</body>
+</html>

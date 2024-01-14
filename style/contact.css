@@ -1,0 +1,294 @@
+body{
+    margin: 0;
+    overflow-y: hidden;
+}
+
+nav{
+    width: 100%;
+    height: 13vh;
+    
+    margin: 0;
+    
+    box-shadow: 1px 0px 10px rgb(109, 109, 109);
+
+    z-index: 999;
+    position: fixed;
+}
+
+#tete{
+    background-color: white;
+    position: fixed;
+    width: 30%;
+    height: 13vh;
+    top: 0;
+    left: 0;
+    
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    z-index: 1000;
+}
+
+#tete2{
+    background-color: white;
+    position: fixed;
+    list-style-type: none;
+    width: 70%;
+    height: 13vh;
+    right: 0;
+    margin: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-content: space-around;
+    align-items: center;
+
+    z-index: 1000;
+}
+
+#tete2 li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+#icon-menu{
+    height: 4vh;
+}
+
+.owlescape-brand{
+    height: 10vh;
+}
+
+
+
+
+
+
+#search a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh;
+    padding-right: 20px;
+
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(199, 199, 199, 0.5);
+
+    font-size: 2.25vh;
+}
+
+#search a:hover{
+    box-shadow: inset 0px 0px 10px rgba(199, 199, 199, 0.5);
+}
+
+.icon-header{
+    height: 3.5vh;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+#reservations a{
+    padding: 2vh 20px;
+
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(199, 199, 199, 0.5);
+
+    font-size: 2.25vh;
+}
+
+#reservations a:hover{
+    box-shadow: inset 0px 0px 10px rgba(199, 199, 199, 0.5);
+}
+
+
+
+
+#contact a{
+    padding: 2vh 20px;
+
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(199, 199, 199, 0.5);
+
+    font-size: 2.25vh;
+}
+
+#contact a:hover{
+    box-shadow: inset 0px 0px 10px rgba(199, 199, 199, 0.5);
+}
+
+
+#identification{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#connexion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(199, 199, 199, 0.5);
+    border-right: solid rgba(210, 210, 210, 0.436);
+
+    margin-right: 0;
+    padding: 0px 20px;
+
+    font-size: 2.25vh;
+}
+#connexion:hover{
+    box-shadow: inset 0px 0px 10px rgba(199, 199, 199, 0.5);
+}
+
+#inscription{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(199, 199, 199, 0.5);
+    border-left: solid rgba(210, 210, 210, 0.436);
+
+    margin-left: 0;
+    padding: 0px 20px;
+
+    font-size: 2.25vh;
+}
+#inscription:hover{
+    box-shadow: inset 0px 0px 10px rgba(199, 199, 199, 0.5);
+}
+
+
+/*--------------------------------------------------------------------*/
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 50vh;
+
+    padding-top: 13vh;
+}
+
+#box-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    width: 70vw;
+}
+
+.icon{
+    height: 10vh;
+}
+
+/*-------------------------------------------------------------------*/
+
+/*
+.affichage-box{
+    display: none;
+}
+*/
+
+
+
+
+
+.background-contact{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1001;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.489);
+}
+
+.box-contact{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(199, 199, 199, 0.5);
+
+    width: 40%;
+    height: 50%;
+}
+
+.close-box-contact{
+    height: 10%;
+    margin: 20px;
+}
+
+.box-infos{
+    width: 100%;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infos-box-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.infos-box-contact img{
+    width: 25%;
+    opacity: 0.5;
+}
+
+.infos-box-contact p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3vh;
+    color: rgba(128, 128, 128, 0.671);
+    width: max-content;
+    margin: 10px;
+}
+
+/*------------------------------------------------------------------------------*/
+
+/*
+#contact1:hover + #box-contact1{
+    display: block;
+}
+*/
+
+
+
+/*-------------------------------------------------------------------*/
+
+footer{
+    background-color: #101428;
+    height: 35vh;
+    padding-bottom: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}

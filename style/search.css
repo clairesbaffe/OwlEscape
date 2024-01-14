@@ -1,0 +1,371 @@
+body{
+    margin: 0;
+}
+
+nav{
+    width: 100%;
+    height: 13vh;
+    
+    margin: 0;
+    
+    box-shadow: 1px 0px 10px rgb(109, 109, 109);
+
+    z-index: 999;
+    position: fixed;
+}
+
+#tete{
+    background-color: white;
+    position: fixed;
+    width: 30%;
+    height: 13vh;
+    top: 0;
+    left: 0;
+    
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    z-index: 1000;
+}
+
+#tete2{
+    background-color: white;
+    position: fixed;
+    list-style-type: none;
+    width: 70%;
+    height: 13vh;
+    right: 0;
+    margin: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-content: space-around;
+    align-items: center;
+
+    z-index: 1000;
+}
+
+#tete2 li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+#icon-menu{
+    height: 4vh;
+}
+
+.owlescape-brand{
+    height: 10vh;
+}
+
+
+
+
+
+
+#search a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh;
+    padding-right: 20px;
+
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(199, 199, 199, 0.5);
+
+    font-size: 2.25vh;
+}
+
+#search a:hover{
+    box-shadow: inset 0px 0px 10px rgba(199, 199, 199, 0.5);
+}
+
+.icon-header{
+    height: 3.5vh;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+#reservations a{
+    padding: 2vh 20px;
+
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(199, 199, 199, 0.5);
+
+    font-size: 2.25vh;
+}
+
+#reservations a:hover{
+    box-shadow: inset 0px 0px 10px rgba(199, 199, 199, 0.5);
+}
+
+
+
+
+#contact a{
+    padding: 2vh 20px;
+
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(199, 199, 199, 0.5);
+
+    font-size: 2.25vh;
+}
+
+#contact a:hover{
+    box-shadow: inset 0px 0px 10px rgba(199, 199, 199, 0.5);
+}
+
+
+#identification{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#connexion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(199, 199, 199, 0.5);
+    border-right: solid rgba(210, 210, 210, 0.436);
+
+    margin-right: 0;
+    padding: 0px 20px;
+
+    font-size: 2.25vh;
+}
+#connexion:hover{
+    box-shadow: inset 0px 0px 10px rgba(199, 199, 199, 0.5);
+}
+
+#inscription{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(199, 199, 199, 0.5);
+    border-left: solid rgba(210, 210, 210, 0.436);
+
+    margin-left: 0;
+    padding: 0px 20px;
+
+    font-size: 2.25vh;
+}
+#inscription:hover{
+    box-shadow: inset 0px 0px 10px rgba(199, 199, 199, 0.5);
+}
+
+
+
+
+/*-----------------------------------------------------*/
+
+
+
+
+
+#formulaire{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 200px 100px 30px 100px;
+    box-shadow: 1px 0px 10px rgb(109, 109, 109);
+}
+
+.item-formulaire{
+    display: flex;
+    flex-direction: column;
+}
+
+.item-formulaire label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.5vh;
+    margin: 5px 0px;
+}
+
+.red-text{
+    color: red;
+}
+
+.item-formulaire input, .item-formulaire select, input{
+    border: solid 1px rgb(180, 180, 180);
+    border-radius: 2px;
+    height: 7vh;
+    width: 12vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    color: rgb(34, 34, 34);
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.submit{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+
+    color: #2B3467;
+    background-color: #BAD7E9;
+    box-shadow: 0px 0px 10px rgba(199, 199, 199, 0.5);
+    width: max-content;
+}
+
+
+
+
+
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 60px 0px 50px 110px;
+}
+
+#main-box-section2{
+    display: flex;
+    flex-direction: column;
+}
+
+.box-section2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+#madrid{
+    background-image: url(../images/search-madrid.jpg);
+}
+#londres{
+    background-image: url(../images/search-londres.jpg);
+}
+#new-york{
+    background-image: url(../images/search-new-york.jpg);
+}
+#tenerife{
+    background-image: url(../images/search-tenerife.jpg);
+}
+#tokyo{
+    background-image: url(../images/search-tokyo.jpg);
+}
+#bordeaux{
+    background-image: url(../images/search-bordeaux.jpg);
+}
+#rome{
+    background-image: url(../images/search-rome.jpg);
+}
+#johannesburg{
+    background-image: url(../images/search-johannesburg.jpeg);
+}
+#reykjavik{
+    background-image: url(../images/search-reykjavik.jpg);
+}
+
+.item-section{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px rgba(160, 160, 160, 0.562);
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 30vw;
+    height: 60vh;
+    transition: width 0.75s, height 0.75s;
+}
+.item-section:hover{
+    width: 32vw;
+    height: 65vh;
+}
+.item-section:hover .text-section2{
+    padding-top: 5vh;
+}
+.item-section:hover .black-filter{
+    width: 32vw;
+    height: 53vh;
+}
+
+
+.img-section2{
+    width: 30vw;
+    height: 50vh;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin: 0;
+}
+
+.black-filter{
+    position: absolute;
+    width: 30vw;
+    height: 50vh;
+    border-radius: 5px;
+    margin: 0;
+    background-color: rgba(15, 15, 15, 0.249);
+    transition: width 0.75s, height 0.75s;
+}
+
+
+.text-section2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 3vh;
+    width: 27vw;
+    margin-left: 3vw;
+    margin-top: 53vh;
+    transition: padding-top 0.75s;
+}
+
+
+#section3{
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 50px;
+}
+#section3 iframe{
+    width: 90vw;
+    height: 90vh;
+}
+
+
+
+/*----------------------------------------------------------*/
+
+
+
+footer{
+    background-color: #101428;
+    height: 35vh;
+    padding-bottom: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réserver un vol | OwlEscape</title>
+    <link href="../style/search.css" rel="stylesheet">
+    <link rel="website icon" type="png" href="../images/chouette.png">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div id="tete">
+                <a id="menu" href="#">
+                    <img id="icon-menu" src="../icons/menu-icon.png">
+                </a>
+                <a href="../home.html">
+                    <img class="owlescape-brand" src="../images/owlescape-brand.png">
+                </a>
+            </div>
+
+            <ul id="tete2">
+                <li id="search">
+                    <a id="text-search" href="./search.html">
+                        <img class="icon-header" src="../icons/search-icon.png">Réserver un vol
+                    </a>
+                </li>
+                <li id="reservations">
+                    <a id="text-reservations" href="./reservations.html">
+                        Mes réservations
+                    </a>
+                </li>
+                <li id="contact">
+                    <a id="text-contact" href="./contact.html">
+                        Contact
+                    </a>
+                </li>
+                <li>
+                    <div id="identification">
+                        <a id="connexion" href="./connexion.html">
+                            <img class="icon-header" src="../icons/person.png">
+                            <p>Connexion</p>
+                        </a>
+                        <a id="inscription" href="./inscription.html">
+                            <p>S'inscrire</p>
+                            <img class="icon-header" src="../icons/add.png">
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="section1">
+        <form id="formulaire">
+            <div class="item-formulaire">
+                <input type="text" placeholder="Départ" name="depart" required>
+            </div>
+            <div class="item-formulaire">
+                <input type="text" placeholder="Destination" name="destination" required>
+            </div>
+            <div class="item-formulaire">
+                <input type="date" name="date" required>
+            </div>
+            <div class="item-formulaire">
+                <input type="time" name="heure" required>
+            </div>
+            <input type="submit" class="submit" value="Rechercher un vol">
+            <p>ou</p>
+            <input type="submit" class="submit" value="Réserver un vol privé">
+        </form>
+    </section>
+
+    <section id="section2">
+
+        <h2>Destinations au départ de Paris les plus prisées</h2>
+
+        <div id="main-box-section2">
+            <div class="box-section2">
+                <div class="item-section" id="madrid">
+                    <div class="black-filter"></div>
+                    <h3 class="text-section2">Madrid</h3>
+                </div>
+                <div class="item-section" id="londres">
+                    <div class="black-filter"></div>
+                    <h3 class="text-section2">Londres</h3>
+                </div>
+                <div class="item-section" id="new-york">
+                    <div class="black-filter"></div>
+                    <h3 class="text-section2">New York</h3>
+                </div>
+            </div>
+            <div class="box-section2">
+                
+                <div class="item-section" id="tenerife">
+                    <div class="black-filter"></div>
+                    <h3 class="text-section2">Tenerife</h3>
+                </div>
+                <div class="item-section" id="tokyo">
+                    <div class="black-filter"></div>
+                    <h3 class="text-section2">Tokyo</h3>
+                </div>
+                <div class="item-section" id="bordeaux">
+                    <div class="black-filter"></div>
+                    <h3 class="text-section2">Bordeaux</h3>
+                </div>
+            </div>
+            <div class="box-section2">
+                <div class="item-section" id="rome">
+                    <div class="black-filter"></div>
+                    <h3 class="text-section2">Rome</h3>
+                </div>
+                <div class="item-section" id="johannesburg">
+                    <div class="black-filter"></div>
+                    <h3 class="text-section2">Johannesburg</h3>
+                </div>
+                <div class="item-section" id="reykjavik">
+                    <div class="black-filter"></div>
+                    <h3 class="text-section2">Reykjavik</h3>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="section3">
+        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Vvh5DfmsEgIwrTYmrndi9gNxqE-GDoI&ehbc=2E312F" width="640" height="480"></iframe>
+    </section>
+
+    
+    <footer>
+        <img class="owlescape-brand" src="../images/owlescape-brand-white.png">
+    </footer>
+    
+</body>
+</html>
